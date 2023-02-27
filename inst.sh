@@ -33,10 +33,10 @@ export FORCENETCFGSTR=''                          # sometimes gateway and defrou
                                                   # example: NAME:myvps,IPV4:10.211.55.105,CIDR:24,MAC:001C42171017,MASK:255.255.255.0, 
                                                   # GATE:10.211.55.1,STATICROUTE:default,DNS1:8.8.8.8,DNS2:1.1.1.1
 
-export autoDEBMIRROR0='https://github.com/minlearn/onekeydevdesk/raw/master'
-export autoDEBMIRROR1='https://gitee.com/minlearn/onekeydevdesk/raw/master'
+export autoDEBMIRROR0='https://github.com/heyzg/onekeydevdesk/raw/master'
+export autoDEBMIRROR1='https://gitee.com/heyzg/onekeydevdesk/raw/master'
 export FORCEDEBMIRROR=''                          # force apply a fixed mirror/targetddurl selection to force override autoselectdebmirror results based on -t -m args given
-export autoIMGMIRROR0='https://github.com/minlearn/1keyddhubfree/raw/master'
+export autoIMGMIRROR0='https://github.com/heyzg/1keyddhubfree/raw/master'
 export autoCOUNTERURL='https://shellevaluatedcounter.minlearn.org'
 export FORCEMIRRORIMGSIZE=''                      # force apply a fixed mirror/targetddimgsize to force checktarget results based on -s args given
 export FORCEMIRRORIMGNOSEG=''                     # force apply the imgfile in both debmirrorsrc and imgmirrorsrc as non-seg git repo style,set to 1 to use common one-piece style
